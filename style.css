@@ -126,10 +126,10 @@ figcaption
     border-color: #6100B0;
     color: #6100B0;
     margin: 80px;
-    height: 240px;
+    height: 220px;
     font-size: 16px;
     position: relative;
-    width: 860px;
+    width: 890px;
     
 }
 
@@ -145,4 +145,15 @@ figcaption
     line-height: 32px;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+#code
+{
+    position : relative;
+    height: 1300px;
+    border-style: dashed;
+    padding: 30px;
+    border-color: #6100B0;
+    color: #6100B0;
+    
 }
