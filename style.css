@@ -10,6 +10,7 @@ body
 
 h1
 {
+    margin: 0 auto;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:4em;
@@ -27,6 +28,7 @@ h1
     background-color: #9999;
 }
 p{
+    margin: O;
     padding-top: -50px;
 }
 h2 
