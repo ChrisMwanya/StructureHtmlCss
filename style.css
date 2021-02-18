@@ -1,196 +1,134 @@
-@font-face {
-    font-family: 'Bitter-Bold';
-    src:url('Bitter-Bold/Bitter-Bold.ttf.woff') format('woff'),
-        url('Bitter-Bold/Bitter-Bold.ttf.svg#Bitter-Bold') format('svg'),
-        url('Bitter-Bold/Bitter-Bold.ttf.eot'),
-        url('Bitter-Bold/Bitter-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face {font-family: "URW Baskerville W10 Ultra Bold";
+    src: url("font/5770baa7788e08e9b8cf0195faa46e00.eot"); /* IE9*/
+    src: url("font/5770baa7788e08e9b8cf0195faa46e00.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/5770baa7788e08e9b8cf0195faa46e00.woff2") format("woff2"), /* chrome、firefox */
+    url("font/5770baa7788e08e9b8cf0195faa46e00.woff") format("woff"), /* chrome、firefox */
+    url("font/5770baa7788e08e9b8cf0195faa46e00.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("font/5770baa7788e08e9b8cf0195faa46e00.svg#URW Baskerville W10 Ultra Bold") format("svg"); /* iOS 4.1- */
+  }
 
 body
 {
-    background-color: #c8c8c8 ;
-    padding-top: 5px;    
+    margin: 0;
+    padding:0;
+    background-color: #c8c8c8;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 main
 {
-    margin: auto;
-    width: 65%;
+    margin: 0 auto;
+    width: 78%;
 }
 
 h1
 {
-    
+    font-family: "URW Baskerville W10 Ultra Bold";  
     text-align: center;
-    font-family: 'Bitter-Bold', serif;
-    font-size:5em;   
-    
-    
+    font-size: 5em;
 }
 
-main p:nth-of-type(1){
-    margin-top: -40px;
-}
-#survoler
-{
-    background-color: #9999;
-}
-
-#survoler :hover
-{
-    background-color: #9999;
-}
-p{
-    margin: O;
-    padding-top: -50px;
-}
-h2 
-{
-    color: #CF0025;
-    font-weight: bolder;
-    font-size: 2em;
-}
 a
 {
-    color: #CF0025;
+    color:  #CF0025;
     font-weight: bold;
 }
-#HistoireInternet
+
+main p:nth-of-type(1)
 {
+    margin-top: -30px;
+}
+
+h2
+{
+    color: #CF0025;
+    font-family: "URW Baskerville W10 Ultra Bold", serif;
+    font-size: 2em;
     font-weight: bold;
 }
+
+/*Tableau*/
 
 table
 {
-    border-spacing: 0em;
-    padding: 1px;
-    width: 100%;
-    
-
-   
+    border-spacing: 0;
 }
 
 thead
 {
-    background-color: #333333;
-    color: white;
-    font-weight: bold;
-    
+    background-color: #333333;    
+    font-style: initial;
+       
 }
+
 th
 {
     text-align: center;
-    height: 25px;
-    font-style: initial;
-    padding: 5px;
-    font-size: 0.9em;
-    font-weight: bold;
+    color: white;
+    height: 20px;
+    padding: 10px; 
 }
 
-tr:hover
+table td, table th
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+table td:nth-of-type(1)
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody tr:nth-of-type(2n+1)
+{
+    background-color: #DDDDDD;
+}
+
+table tr:hover
 {
     background-color: #999999;
     cursor: pointer;
 }
 
-td
-{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-tr
-{
-    height: 46px;
-}
-.anne
-{
-    text-align: center;
-    font-weight: bold;
-}
-.tr1
-{
-    background-color: #dddddd;
-}
+/*Figure et image*/
 
-figure{
-    
-    background-color:#333333;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 350;
-    border-color: #CF0D30;
-    border-style: solid;
-    border-radius: 10px;
+figure
+{
+    background-color: #333333;
     width: 100%;
-    margin-left: 0%;
-    width: 100%;
-    height: 100%;
-    
-    
-}
+    margin:0px;
+    margin-top: 15px;
+    padding-top: 35px;
+    border: 3px solid #CF0D30;
+    border-radius: 20px;
+} 
+
 img
-{    
-     width: 90%; 
-    margin: 40px auto;
-    height: 90%; 
-   /* margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 60px;*/
+{
+    display: block;
+    margin:auto;
+    width: 95%;
 }
 
 figcaption
 {
-    margin-top:30px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-bottom: 30px;
-
-}
-#dernierParagraph
-{
-    width: 100%;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    text-align: center;
 }
 
-#RoleReseau
+#bas_page
 {
-    border-style: dashed;
-    border-color: #6100B0;
-    color: #6100B0;
-    margin: 80px;
-    height: 220px;
-    font-size: 16px;
-    position: relative;
-    width: 890px;
-    
-}
+    border: 2px dashed #5144AE;
+    width: 80%;
+    background-color: #B7B7B7;
+    color: #5144AE;
+    padding: 20px;
+    display: block;
+    margin:auto;
 
-#contenuRoleReseau
-{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 800px;
-    height: 200px;
-    transform: translate(-50%, -50%);
-    padding: 6px;
-    line-height: 32px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-#code
-{
-    position : relative;
-    height: 1300px;
-    border-style: dashed;
-    padding: 30px;
-    border-color: #6100B0;
-    color: #6100B0;
-    
 }
