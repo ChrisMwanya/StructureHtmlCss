@@ -1,24 +1,11 @@
 
-@font-face {font-family: "URW Baskerville W10 Ultra Bold";
-    src: url("font/5770baa7788e08e9b8cf0195faa46e00.eot"); /* IE9*/
-    src: url("font/5770baa7788e08e9b8cf0195faa46e00.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("font/5770baa7788e08e9b8cf0195faa46e00.woff2") format("woff2"), /* chrome、firefox */
-    url("font/5770baa7788e08e9b8cf0195faa46e00.woff") format("woff"), /* chrome、firefox */
-    url("font/5770baa7788e08e9b8cf0195faa46e00.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("font/5770baa7788e08e9b8cf0195faa46e00.svg#URW Baskerville W10 Ultra Bold") format("svg"); /* iOS 4.1- */
-  } 
-
-@font-face{
-    font-family: 'Baskerville';
-    src: url(/font/OnlineWebFonts_COM_bb4a1f636326755327542a1c76c930f0/URW\ Baskerville\ W10\ Ultra\ Bold.ttf);
-}
 
 body
 {
     margin: 0;
     padding:0;
     background-color: #c8c8c8;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto' sans-serif;
 }
 
 main
@@ -29,7 +16,8 @@ main
 
 h1
 {
-    font-family: "URW Baskerville W10 Ultra Bold";  
+    font-family: 'Libre Baskerville', serif;  
+    font-weight: bolder;
     text-align: center;
     font-size: 5em;
 }
@@ -48,7 +36,7 @@ main p:nth-of-type(1)
 h2
 {
     color: #CF0025;
-    font-family: "URW Baskerville W10 Ultra Bold", serif;
+    font-family:'Libre Baskerville', serif;
     font-size: 2em;
     font-weight: bold;
 }
@@ -140,3 +128,4 @@ figcaption
     line-height: 1.5em ;
 
 }
+
